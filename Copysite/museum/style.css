@@ -1,0 +1,138 @@
+/* Imports*/
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&display=swap');
+
+/* General Style */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.general_button
+{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #656565;
+    border-radius: 25px;
+    background-color:#008573;
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.line
+{
+    width: 95%;
+    border-top: 1px solid #1a1a1a;
+    margin: auto;
+    margin-top: 30px;
+ 
+}
+
+.active /* KADA JE JEDAN OD HEADER BOTTOM LINKOVA AKTIVAN*/
+{
+    border-bottom: 3px solid #fff; 
+}
+
+/* Header Style */
+
+
+.header
+{
+    width: 100vw;
+    height: 25vh;
+    background-color: #000000;
+  
+}
+
+/* Header top*/
+.header_top
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+.header_link
+{
+
+}
+.header_link a
+{
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 30px;
+}
+.hamburger_menu
+{
+    margin-right: 10px;
+}
+.header_logo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 4em;
+    font-family:'Cormorant Garamond', serif;
+    letter-spacing: 10px;
+}
+.header_button
+{
+    margin-right: 30px;
+}
+#web_store
+{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #656565;
+    border-radius: 25px;
+    background-color:#1a1a1a;
+    margin-right: 30px;
+}
+#web_store a
+{
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+}
+#web_store i
+{
+    margin-right: 10px;
+}
+
+#web_store:hover
+{
+    border-color: #fff;
+}
+
+/* Header Bottom*/
+.header_bottom
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+.header_bottom a
+{
+    margin: 40px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.header_bottom a:hover
+{
+    border-bottom: 3px solid #fff;
+}
+
+/* Poster */
+.poster
+{
+    height: 80vh;
+    width: 300px;
+    background-image: url(images/poster_photo.jpg);
+    background-repeat: no-repeat;
+}
